@@ -1,2 +1,5 @@
 def factorial(num):
-	# your code here
+	sum = 1
+	for x in range(num, 0, -1):
+		sum *= x
+	return sum
